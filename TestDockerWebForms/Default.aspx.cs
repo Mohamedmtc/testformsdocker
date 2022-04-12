@@ -11,7 +11,7 @@ namespace TestDockerWebForms
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            MachineNameId.Text = System.Environment.MachineName;
         }
     }
 }
